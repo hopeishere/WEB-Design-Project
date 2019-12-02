@@ -22,8 +22,9 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
 
 #header { /* This styling is used for the banner in the top of the page html */
     height: 100px;
-    background: darkgreen url("https://wall.cookdiary.net/sites/default/files/wallpaper/abstract/65847/dark-textures-wallpapers-hd-65847-6457586.png");
-
+    background: darkgreen url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WETjZt2-BWZ6vLNgh888HfWwin34vau1VDYQAeuU6m31Unt1&s");
+    background-repeat: no-repeat;
+    background-size: 2000px 100px ;
 
 }
 #header h1{ /* This styling is used for the Main Title of the page html , you can used it as your Company name or your Webpage Name */
