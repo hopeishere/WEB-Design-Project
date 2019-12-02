@@ -6,7 +6,7 @@
     background: rgba(0, 0, 0, 1.0);
     padding: 20px;
     width: 270px;
-    box-shadow: 0 0 10px 5px rgb(6, 44, 71);
+    box-shadow: 0 0 10px 5px #fff;
 }
 
 .avatar {/*
