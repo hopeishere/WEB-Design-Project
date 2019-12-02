@@ -18,7 +18,8 @@ a { /* This styling is used for every single hyperlink element in the html file 
 a:hover { /* This styling is used for the hyperlink element when you put your pointer on the hyperlink */
     text-decoration: underline;
     color: whitesmoke;
-    background-color: grey;
+    /*background-color: grey;*/
+    background-color:#96DAEA;/*the background is changed */
 }
 
 #header { /* This styling is used for the banner in the top of the page html */
