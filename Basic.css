@@ -28,11 +28,11 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
 
 }
 #header h1{ /* This styling is used for the Main Title of the page html , you can used it as your Company name or your Webpage Name */
-    font-size:50px;
+   font-size:70px;
     color: white;
     padding-left: 30px;
     padding-top: 35px;
-
+    font-family:DFGothic-EB;/*This is an addition from the previous header */   
     -webkit-animation:glow 1s ease-in-out infinite alternate;
    -moz-animation: glow 1s ease-in-out infinite alternate;
    animation: glow 1s ease-in-out infinite alternate;
