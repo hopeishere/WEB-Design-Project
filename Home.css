@@ -1,0 +1,86 @@
+#content { /* This is styling for the content , you can add many content that you want */
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right:20px;
+  padding: 10px;
+  width: 65%;
+	background: black;
+  float: right;
+}
+
+#content h2{ /* This is styling for Your title of the content */
+  font-size: 50px;
+  font-weight: 100;
+  padding: 15px 0 7px 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+#contect h2 a{ /* This styling is used if your title of the content has a link */
+  text-decoration: none;
+  color: white;
+
+}
+
+#content h2 a:hover{ /* This styling is used when your title of the content has a link , and you put your pointer to the title */
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+#content p { /* This styling is used for your explaination of your content */
+  color: white;
+  font-size: 20px;
+  line-height: normal;
+  font-family: arial;
+}
+
+#content img { /* This styling is used for image in your content */
+  width: 600px;
+}
+
+#list { /* This is styling for a list that you want to build and i suggest you that your list less than 10 list */
+margin-top: 10px;
+margin-bottom: 30px;
+margin-right: 20px;
+margin-left: 20px;
+padding:10px;
+width: 26%;
+height: 2000px;
+background: linear-gradient(to bottom,grey,darkslategrey,black);
+align: center;
+float:left;
+}
+
+#list h2 { /* This is styling for the title of your List */
+  font-size: 50px;
+  font-weight: 30px;
+  padding: 30px;
+  line-height: 25px;
+  font-family: Arial black;
+  color: whitesmoke;
+
+}
+
+#list ul { /* This is for your Menu Template */
+  padding: 10px 0 15px 30px;
+  list-style-type: square;
+  line-height: 30px;
+
+}
+
+#list ul li a { /* This styling is used for your list and make it have a link */
+  font-size: 30px;
+  font-family: times new roman;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+
+
+
+}
+
+#list ul li a:hover { /* This styling is used for your list when you put your pointer to the list */
+  color: darkgreen;
+  text-decoration: underline;
+
+}

@@ -1,0 +1,178 @@
+.login {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 1.0);
+    padding: 20px;
+    width: 270px;
+    box-shadow: 0 0 10px 5px rgb(6, 44, 71);
+}
+
+.avatar {/*
+    font-size: 50px;
+    background: #bdc3c7;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: -5%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    color: gray;*/
+}
+
+.avatar img{/*
+	height: 80px;
+	width: 90px;
+	border-radius: 50%;*/
+}
+
+.login h2 {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    
+}
+
+.box-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+
+}
+
+.box-login i {
+    font-size: 20px;
+    color: white;
+}
+
+.box-login input {
+    width: 100%;
+    padding: 0 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+
+.box-login input:placeholder-shown {
+    color: white
+}
+
+.btn-login {
+    width: 100%;
+    background: none;
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: bisque;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.signup { /* this is style for log in page if you click login in menu bar it will issue the login page */
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 270px;
+    box-shadow: 0 0 10px 5px darkgreen;
+}
+
+.avatar { /* avatar is the frame or it can be like box or circle for profile pictures in the top of login page */
+    font-size: 50px;
+    background: #bdc3c7;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: -5%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    color: gray;
+}
+
+.avatar img{ /* this avatar image is the image that we put in box or circle which is  the frame of image */
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+}
+
+.signup h2 { /* this is style of sign up page and it would be bigger than other font size in this html or css which is below the avatar */
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    
+}
+
+.box-signup { /* this is for each box for the step by step that we make sign up page */ 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+
+}
+
+.box-signup i { /* this style is to make italic font style */ 
+    font-size: 20px;
+    color: white;
+}
+
+.box-signup input { /* this input is the inside of box sign up which is the direction to fill each box */
+    width: 100%;
+    padding: 0 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+
+.box-signup input:placeholder-shown { /*  represents any input or textarea element that is currently displaying placeholder text */
+    color: white
+}
+
+.btn-signup { /* a style for the submit or login button */
+    width: 100%;
+    background: none;
+    padding: 10px;
+    border: 5px solid white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: bisque;
+    cursor: pointer;
+}
+
+.btn-signup: hover { /* style that we put to make effects for button or submit
+    background: rgba(0, 0, 0, 0.8);
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.bottom a hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,87 @@
+/* use div to use this CSS ("." for class and "#" for id) */
+
+.description {		/* to align content of the right section and give a border to divide left and right content section */
+	border-right: 5px solid darkgreen;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	
+	width: 1000px;
+	
+	
+}
+
+.description h2{	/* For the main title of the subject */
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	text-align: justify;
+	color :white;
+	font-size: 45px;
+	
+}
+
+.description h3{	/* For secondary title of the subject */
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	text-align: justify;
+	color :darkgreen;
+	font-size: 35px;
+	
+}
+
+.description img{	/* Custom image that you want to put (you can customize the size tho */
+	padding: 15px;
+	width: 640px;
+	height: 360px;
+}
+
+.description p{     /* The content of the subject */
+	
+	padding-left: 15px;
+	padding-right: 25px;
+	text-align: justify;
+	font-family: Arial BLack;
+	color: white;
+	font-size: 20px;
+
+	border-right: 5px solid darkgreen;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 960px;
+}
+
+.photo {        /* The alignment for right section content */
+	float: right;
+	margin: 30px;
+	padding:10px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 5px solid darkgreen;
+	
+}
+
+.photo p{       /* The additional infromation that you want to write down */
+	padding-top: 30px;
+	color: white;
+	font-size:15px;
+}
+.photo img{     /* Input circle image as an thumbnail */
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.photo ul{     
+	padding-top: 30px;
+	padding-left: 10px;
+	list-style-type: square;
+	color: green;
+}
+
+.photo ul li a{     /* make navigation link to other detail subject */
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+}

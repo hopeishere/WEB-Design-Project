@@ -1,0 +1,100 @@
+*{ /* This styling is used for every single element in the html file that we build */
+  margin : 0;
+  padding : 0;
+}
+body { /* This styling is used for the entire body */
+    background-color:black;
+    font-family :Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkslategrey;
+}
+
+a { /* This styling is used for every single hyperlink element in the html file */
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover { /* This styling is used for the hyperlink element when you put your pointer on the hyperlink */
+    text-decoration: underline;
+    color: whitesmoke;
+    background-color: grey;
+}
+
+#header { /* This styling is used for the banner in the top of the page html */
+    height: 100px;
+    background: darkgreen url("https://wall.cookdiary.net/sites/default/files/wallpaper/abstract/65847/dark-textures-wallpapers-hd-65847-6457586.png");
+
+
+}
+#header h1{ /* This styling is used for the Main Title of the page html , you can used it as your Company name or your Webpage Name */
+    font-size:50px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 35px;
+
+    -webkit-animation:glow 1s ease-in-out infinite alternate;
+   -moz-animation: glow 1s ease-in-out infinite alternate;
+   animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+ from {
+   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(6, 44, 71), 0 0 40px rgb(6, 44, 71), 0 0 50px rgb(6, 44, 71), 0 0 60px rgb(6, 44, 71), 0 0 70px rgb(6, 44, 71);
+ }
+ to {
+   text-shadow: 0 0 20px #fff, 0 0 30px rgb(6, 44, 71), 0 0 40px rgb(6, 44, 71), 0 0 50px rgb(6, 44, 71), 0 0 60px rgb(6, 44, 71), 0 0 70px rgb(6, 44, 71), 0 0 80px rgb(6, 44, 71)
+}
+
+
+}
+
+#menu { /* This styling is used for menu container of our page html , i suggest you to make the menu container less than 10 */
+    height:30px;
+    line-height:30px;
+    background: linear-gradient(to bottom, white,grey);
+    padding-left: 30px;
+
+}
+
+#menu ul { /* This styling is used for your template of menu container */
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+#menu ul li { /* This styling is used for list of your menu container. This Styling make our list of menu container in one row to the right*/
+    display: block;
+    float: left;
+    padding-left:100px ;
+
+}
+
+#menu ul li a { /* This styling is used for the list of your menu container that have a hyperlink */
+    text-decoration:none;
+    color: black;
+    font-size: 15px;
+    font-family: arial black ;
+
+
+}
+
+#menu ul li a:hover { /* This styling is used for the list of your menu container that have a link and when you put your pointer to the hyperlink */
+    color: darkgreen;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+}
+
+#footer { /* This is styling for your footer of your page html */
+    background-color: darkgreen;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #aaa;
+    font-family: arial;
+    }
+    #footer a { /* This Styling is used for your footer if your footer have a hyperlink */
+    color: White;
+    text-decoration: none ;}
+    #footer a:hover /* This styling is used for your footer if your footer have a hyperlink and you put your pointer to the hyperlink */
+    { color: darkslategrey;
+    text-decoration: none;}
