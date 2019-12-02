@@ -32,6 +32,7 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
     color: white;
     padding-left: 30px;
     padding-top: 35px;
+    text-align : center;
     font-family:DFGothic-EB;/*This is an addition from the previous header */   
     -webkit-animation:glow 1s ease-in-out infinite alternate;
    -moz-animation: glow 1s ease-in-out infinite alternate;
