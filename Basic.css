@@ -3,7 +3,8 @@
   padding : 0;
 }
 body { /* This styling is used for the entire body */
-    background-color:black;
+    /*background-color:black;*/
+    background-color:#00263A;/*the background is changed from the original one */
     font-family :Tahoma, Arial, Helvetica, sans-serif;
     font-size: 12px;
     line-height: 20px;
@@ -22,7 +23,8 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
 
 #header { /* This styling is used for the banner in the top of the page html */
     height: 100px;
-    background: darkgreen url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WETjZt2-BWZ6vLNgh888HfWwin34vau1VDYQAeuU6m31Unt1&s");
+    /*background:darkgreen url("../img/backheader.jpg)*/
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WETjZt2-BWZ6vLNgh888HfWwin34vau1VDYQAeuU6m31Unt1&s");/* additional changes for the banner*/
     background-repeat: no-repeat;
     background-size: 2000px 100px ;
 
@@ -52,7 +54,8 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
 #menu { /* This styling is used for menu container of our page html , i suggest you to make the menu container less than 10 */
     height:30px;
     line-height:30px;
-    background: linear-gradient(to bottom, white,grey);
+    /*background: linear-gradient(to bottom, white,grey);*/
+    background-color:black;/*the background color is changed*/
     padding-left: 30px;
 
 }
@@ -71,7 +74,8 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
 
 #menu ul li a { /* This styling is used for the list of your menu container that have a hyperlink */
     text-decoration:none;
-    color: black;
+    /*color: black;*/
+    color:white;/*the color of the font is changed to white */
     font-size: 15px;
     font-family: arial black ;
 
@@ -87,7 +91,8 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
 }
 
 #footer { /* This is styling for your footer of your page html */
-    background-color: darkgreen;
+   /*background-color:darkgreen;*/
+    background-color: #03477A;/*the background-color is changed*/
     height: 30px;
     text-align: center;
     font-size: 15px;
