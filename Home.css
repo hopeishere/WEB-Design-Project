@@ -46,7 +46,8 @@ margin-left: 20px;
 padding:10px;
 width: 26%;
 height: 2000px;
-background: linear-gradient(to bottom,grey,darkslategrey,black);
+/*background: linear-gradient(to bottom,grey,darkslategrey,black);*/
+background:#004987;/*changed from the original background*/
 align: center;
 float:left;
 }
@@ -56,8 +57,9 @@ float:left;
   font-weight: 30px;
   padding: 30px;
   line-height: 25px;
-  font-family: Arial black;
+  /*font-family: Arial black;*/
   color: whitesmoke;
+font-family:DFGothic-EB;/*This is an addition from the previous h2 */
 
 }
 
@@ -84,3 +86,4 @@ float:left;
   text-decoration: underline;
 
 }
+
