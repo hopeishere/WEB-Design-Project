@@ -150,3 +150,88 @@ font-family:DFGothic-EB;/*This is an addition from the previous h2 */
     }
 }
 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+
+  #content { /* This is styling for the content , you can add many content that you want */
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right:0px;
+  padding: 10px;
+  width: 100%;
+  background: black;
+  float: right;
+}
+#content h2{ /* This is styling for Your title of the content */
+  font-size: 30px;
+  font-weight: 100px;
+  padding: 15px 0 7px 0;
+  line-height: normal;
+  text-decoration: none;
+}
+#content h2 a{ /* This styling is used if your title of the content has a link */
+  text-decoration: none;
+  color: white;
+
+}
+
+#content h2 a:hover{ /* This styling is used when your title of the content has a link , and you put your pointer to the title */
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+#content p { /* This styling is used for your explaination of your content */
+  color: white;
+  font-size: 15px;
+  line-height: normal;
+  font-family: arial;
+}
+
+#content img { /* This styling is used for image in your content */
+  width: 100%;
+  margin: 0 0 10px 10px;
+}
+#list { /* This is styling for a list that you want to build and i suggest you that your list less than 10 list */
+display: none;
+}
+
+#list h2 {  This is styling for the title of your List */
+  font-size: 20px;
+  font-weight: 20px;
+  padding: 5px;
+  line-height: 20px;
+  font-family: Arial black;*/
+  color: whitesmoke;
+font-family:DFGothic-EB;/*This is an addition from the previous h2 */
+
+display: none;
+}
+
+#list ul { /* This is for your Menu Template */
+  padding: 10px 0 15px 10px;
+  list-style-type: square;
+  line-height: 20px;
+display: none;
+}
+
+#list ul li a { /* This styling is used for your list and make it have a link */
+  font-size: 16px;
+  font-family: times new roman;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+
+
+
+
+
+}
+
+#list ul li a:hover { /* This styling is used for your list when you put your pointer to the list */
+  color: darkgreen;
+  text-decoration: underline;
+
+}
+}
