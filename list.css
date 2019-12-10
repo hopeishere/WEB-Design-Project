@@ -194,3 +194,52 @@ font-family: roboto;
   .footer a:hover {
     color: darkslategrey;
     text-decoration: none;}
+  
+  @media only screen and (max-width:400px) and (min-width:0px)
+{
+   #header{
+    width: 100%;
+    }
+     #header h1{
+        font-size: 80px;
+    }
+
+     #menu ul{
+        padding-left:0px;
+         
+        
+    }
+    
+    #menu ul li 
+    {       
+        padding-left: 10px;
+        padding-right: 10px;
+       
+    }
+    
+    #menu ul li a{
+         font-size: 15px;
+    }
+    #footer p a{
+        width:100%;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .content_2{
+        display:none;
+    }
+    .option{
+        width: 100%;
+        float:left;
+    }
+    .option p{
+        margin-left: 70px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    #content_wrapper{
+        display:none;
+    }
+    
+}
