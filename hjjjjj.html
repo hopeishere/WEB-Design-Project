@@ -1,0 +1,245 @@
+* {												/* Muhamad Afif Fadillah 001201900010*/
+  padding: 0;											/* IT class 3 ( 
+  margin: 0;											/* List page */
+}
+body {
+    background:linear-gradient(to right, darkgreen, black);
+    font-family :Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+    background-color: grey;
+}
+
+#header {
+  /* this is banner first recatngle*/
+    height: 100px;
+    background: darkgreen url("../img/backheader.jpg");
+
+}
+#header h1{   /* this is logo text part that hover in banner */
+    font-size:50px;
+    color: white;
+    position: block;
+    padding-left: 35px;
+    padding-top: 30px;
+    -webkit-animation:glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+from {
+/* change color by changing the hex */
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #029e09, 0 0 40px #029e09, 0 0 50px #029e09, 0 0 60px #029e09, 0 0 70px #029e09;
+}
+/* change color by changing the hex */
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #029e09, 0 0 40px #029e09, 0 0 50px #029e09, 0 0 60px #029e09, 0 0 70px #029e09, 0 0 80px #029e09
+}
+
+}
+
+#menu {      /* this is  menu bar under the banner */
+    height:30px;
+    line-height:30px;
+    background: linear-gradient(to bottom, white, grey);
+    padding-left:30px;
+
+}
+
+#menu ul {
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+#menu ul li { /* the maximum menu list is 8 */
+    display: block;
+    float: left;
+    padding-left: 100px;
+}
+
+#menu ul li a {
+
+      text-decoration:none;
+      color: black;
+      font-size: 15px;
+      font-family: arial black ;
+
+
+}
+
+#menu ul li a:hover {
+    color: darkgreen;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: black;
+}
+
+
+/* this is part of content description under the menu bar */
+#content_wrapper{
+  height: 500px;
+  width: 100%;
+}
+#content_wrapper h1{ /* this div tittle of content wrapper*/
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  padding-top: 250px;
+  padding-left: 80px;
+}
+#content_wrapper p { /* this is content of content wrapper */
+  position: inline;
+  color: white;
+  padding-top: 230px;
+  padding-left: 50px;
+  float: right;
+  margin-right: 100px;
+  margin-left: 600px;
+
+}
+
+/*option is part option under content wrapper (!! option max 3 div per row / can create up to 9 as long as multiple of 3 !!)*/
+.option{ /* this  div is located under the first content wrapper */
+height: 450px;
+width: 503px;
+background: linear-gradient(to bottom, darkgreen, black);
+color: white;
+float: left;
+margin-right: 1px;
+font-family: roboto;
+}
+.img_op{ /* this is image div inside option */
+  height: 150px;
+  width:200px;
+  margin-left: 150px;
+  position: static;
+  border-radius: 50%;
+  z-index:1;
+  background-color: grey;
+  margin-top: 50px;
+}
+.option h2{ /* this is option tittle */
+  margin-top: 10px;
+  margin-left: 160px;
+}
+.option p{ /* this is option content*/
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+.option a{ /* this is learn more button under the content, this can be linked to specified page that match with option content */
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-right: 30px;
+  text-align: center;
+  font-family: roboto;
+  margin-top: 20px;
+}
+.option a:hover{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  color: black;
+  background: white;
+}
+#moving_text{ /* this div located under option */
+  color: white; /* this is moving text, to create moving text use <marquee> */
+}
+.content_2{ /* this is second content, this div located under the option */
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to right, black, darkgreen);
+}
+
+.content_2 h1{ /* this is tittle of content 2 */
+  color: white;
+  margin-right: 100px;
+  z-index: 1;
+  padding-top: 210px;
+  float: right;
+  font-size: 30px;
+}
+.content_2 p{
+  color: white;
+  padding-right: 700px;
+  padding-top:200px;
+  margin-left: 100px;
+
+.footer{ /* this is bottom part under content_2 contain information */
+      background-color: darkgreen;
+      height: 30px;
+      text-align: center;
+      font-size: 15px;
+      color: #aaa;
+      font-family: arial;
+    }
+  .footer a {
+    color: White;
+    text-decoration:none;
+    }
+  .footer a:hover {
+    color: darkslategrey;
+    text-decoration: none;}
+  
+  @media only screen and (width:600px)
+{
+   #header{
+    width: 100%;
+    }
+     #header h1{
+        font-size: 80px;
+    }
+
+     #menu ul{
+        padding-left:0px;
+         
+        
+    }
+    
+    #menu ul li 
+    {       
+        padding-left: 10px;
+        padding-right: 10px;
+       
+    }
+    
+    #menu ul li a{
+         font-size: 15px;
+    }
+    #footer p a{
+        width:100%;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .content_2{
+        display:none;
+    }
+    .option{
+        width: 100%;
+        float:left;
+    }
+    .option p{
+        margin-left: 70px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    #content_wrapper{
+        display:none;
+    }
+    
+}
