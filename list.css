@@ -244,3 +244,132 @@ font-family: roboto;
     }
     
 }
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+
+  * {                       /* Muhamad Afif Fadillah 001201900010*/
+  padding: 0;                     /* IT class 3 ( 
+  margin: 0;                      /* List page */
+}
+body {
+   /* background:linear-gradient(to right, darkgreen, black);*/
+    font-family :Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    line-height: 20px;
+}
+
+#content_wrapper{
+  height: 20em;
+  width: 100%;
+}
+#content_wrapper h1{ /* this div tittle of content wrapper*/
+  position: absolute;
+  color: white;
+  font-size: 1.9em;
+  padding-top: 20%;
+  padding-left: 0%;
+}
+#content_wrapper p { /* this is content of content wrapper */
+  position: inline;
+  color: white;
+  padding-top: 15%;
+  padding-left:50%;
+  float: right;
+  margin-right: 10%;
+  margin-left: 60%;
+  font-size: 1.4em;
+}
+.option{ /* this  div is located under the first content wrapper */
+height: 45%;
+width: 40%;
+background: linear-gradient(to bottom, #96DAEA, black);
+color: white;
+float: left;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 10%;
+font-family: roboto;
+}
+.img_op{ /* this is image div inside option */
+  height: 150px;
+  width:200px;
+  margin-left:15%;
+  position: static;
+  border-radius: 50%;
+ /* z-index:1;*/
+  background-color: grey;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+.option h2{ /* this is option tittle */
+  margin-top: 10px;
+  margin-left: 10%;
+  font-size: 1.9em;
+}
+.option p{ /* this is option content*/
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 20px;
+  display: none;
+}
+.option a{ /* this is learn more button under the content, this can be linked to specified page that match with option content */
+ 
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-right: 30px;
+  text-align: center;
+  font-family: roboto;
+  /*margin-top: 20px;*/
+}
+.option a:hover{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  color: black;
+  background: white;
+}
+.content_2{ /* this is second content, this div located under the option */
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to right, black, #96DAEA);margin-top: 50em;
+  margin-bottom: 30px;
+}
+
+.content_2 h1{ /* this is tittle of content 2 */
+  color: white;
+  margin-right: 0;
+  z-index: 1;
+  padding-top: 3%;
+  float: left;
+  font-size: 3.5em;
+
+}
+.content_2 p{
+  color: white;
+  padding-right: 0;
+  padding-top:15%;
+  margin-left: 10%;
+  font-size: 2em;
+}
+.footer{ /* this is bottom part under content_2 contain information */
+      background-color: darkgreen;
+      height: 30px;
+      text-align: center;
+      font-size: 15px;
+      color: #aaa;
+      font-family: arial;
+    }
+  .footer a {
+    color: White;
+    text-decoration:none;
+    }
+  .footer a:hover {
+    color: darkslategrey;
+    text-decoration: none;}
+#moving_text{ /* this div located under option */
+  color: white; /* this is moving text, to create moving text use <marquee> */
+  font-size: 2em;
+}
+}
