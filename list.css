@@ -162,7 +162,8 @@ font-family: roboto;
 .content_2{ /* this is second content, this div located under the option */
   width: 100%;
   height: 400px;
-  background: linear-gradient(to right, black, darkgreen);
+  background: linear-gradient(to right, black, #96DAEA);
+  margin-top: 985px;
 }
 
 .content_2 h1{ /* this is tittle of content 2 */
