@@ -4,8 +4,8 @@
 	border-right: 5px solid darkgreen;
 	margin-top: 25px;
 	margin-bottom: 30px;
+	width: 60%;
 	
-	width: 1000px;
 	
 	
 }
@@ -32,15 +32,17 @@
 
 .description img{	/* Custom image that you want to put (you can customize the size tho */
 	padding: 15px;
-	width: 640px;
+	width: 80%;
+   	 margin: 0 0 10px 0;
+   	 padding-left: 10%;
 	height: 360px;
 }
 
 .description p{     /* The content of the subject */
 	
-	padding-left: 15px;
+	padding-left: 67px;
 	padding-right: 25px;
-	text-align: justify;
+
 	font-family: Arial BLack;
 	color: white;
 	font-size: 20px;
@@ -48,7 +50,7 @@
 	border-right: 5px solid darkgreen;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	width: 960px;
+	width:90%;
 }
 
 .photo {        /* The alignment for right section content */
@@ -84,4 +86,54 @@
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: 400;
+}
+
+@media only screen and (max-width:400px)
+{
+    .photo{
+        display:none;
+    }
+    .description {
+        width: 100%;
+        border-right:none;
+    }
+    .description p{
+        font-size: 15px;
+        line-height: 20px;
+        
+        border-right:none;
+        padding-left: 30px;
+    }
+    .description h2{
+        line-height: 50px;
+    }
+    .description h3{
+        line-height: 60px;
+    }
+   
+    #footer p a{
+        width:100%;
+        font-size: 15px;
+        padding-left: 10px;
+       
+    }
+     #header h1{
+        font-size: 80px;
+    }
+
+     #menu ul{
+        padding-left: 20px;
+        
+    }
+    
+    #menu ul li 
+    {       
+        padding-left: 5px;
+        padding-right: 10px;
+       
+    }
+    
+    #menu ul li a{
+         font-size: 15px;
+    }
 }
