@@ -376,35 +376,24 @@
 @media screen and (max-width: 200px){
     
 
-    #header h1{
-        
-        position: absolute;
-        left: 20%;
-        
-        
-    }
+
 
     .btn-login {
-        font-size: 20px;
+        font-size: 40px;
     }
     .login{
         position: absolute;
-        left: 85%;
+        left: 70%;
     }
-    #menu {
-        font-size: 60px;
-        float: left;
-    }
+    
     .bottom a{
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 20px;
-        padding-left: 30%;
+        padding-left: 25%;
         
     }
     .login h2{
-        font-size: 20px;
+        font-size: 30px;
+        padding-bottom: 30px;
     }
-    
-    
-    
 }
