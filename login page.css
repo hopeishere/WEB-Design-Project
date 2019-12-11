@@ -373,3 +373,38 @@
 }
 
 }
+@media screen and (max-width: 200px){
+    
+
+    #header h1{
+        font-size: 10px;
+        position: absolute;
+        left: 20%;
+        padding-top: 100px;
+        
+    }
+
+    .btn-login {
+        font-size: 20px;
+    }
+    .login{
+        position: absolute;
+        left: 85%;
+    }
+    #menu {
+        font-size: 60px;
+        float: left;
+    }
+    .bottom a{
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 30%;
+        
+    }
+    .box login input {
+        font-size: 20px;
+        color: white;
+    }
+    
+    
+}
