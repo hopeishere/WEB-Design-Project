@@ -373,27 +373,37 @@
 }
 
 }
-@media screen and (max-width: 200px){
+@media screen and (max-width: 375px){
     
 
 
 
-    .btn-login {
-        font-size: 40px;
-    }
-    .login{
-        position: absolute;
-        left: 70%;
-    }
-    
-    .bottom a{
-        font-size: 30px;
-        padding-top: 20px;
-        padding-left: 25%;
+    .btn-login {/* SUBMIT */
+        font-size: 20px;
         
     }
-    .login h2{
+    .login{/*BOX BLACK*/
+ 
+        left: 50%;
+        padding-bottom: 80px;
+        padding-top: 80px;
+      
+        
+    }
+    
+    .bottom a{/*SIGN UP*/
+        font-size: 20px;
+
+        padding-left: 0%;
+        
+        
+    }
+    .login h2{/*SIGN IN*/
         font-size: 30px;
         padding-bottom: 30px;
+    }
+    .bottom {/*ARAH SIGN UP*/
+        font-size: 150px;
+        float: right;
     }
 }
