@@ -235,7 +235,7 @@ display: none;
 
 }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px){/*SCREEN FOR IPHONE 6 OR 7 OR 8*/
 
     #content p{/*SIZE PARAGRAFT OF CONTENT*/
         font-size: 20px;
