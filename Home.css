@@ -269,4 +269,9 @@ display: none;
     #content img{/*IMAGE*/
         width: 300px;
     }
+    #content h2 a{/*TITLE OF PARAGRAF*/
+        font-size: 20px;
+        float: left;
+    }
+  
 }
