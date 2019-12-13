@@ -1,9 +1,9 @@
 @media screen and (max-width: 375px){
     
-    #header h1{
+    #header h1{/*for lone open now*/
         font-size: 60px;
      }
-    .login {
+    .login {/*for black box*/
         padding-top: 25px;
         padding-bottom: 25px;
     }
