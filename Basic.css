@@ -192,36 +192,28 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
     text-decoration: none;}
 }
 }
-@media screen and (max-width: 200px){
-    
+@media screen and (max-width: 375px){
     
     #header h1{
-        padding-top: 60px;
-        padding-left: 0px;
         font-size: 80px;
-    }
-    #menu {
-        padding-left: 0px;
-        left: 0%;
-    }
-    #menu ul li a{
-        font-size: 25px;
-        
-   
-    }
-    #header{
-        
-        background-size: 100%;
-       
-    }
-    #menu ul{
         padding-top: 50px;
-        padding-left:0px; 
-        background: none;
-        left: 10%;
-   
-     
+        padding-left: 10px;
+    }
+
+     #menu ul{
+        padding-left: 10px;
+        
     }
     
+    #menu ul li 
+    {       
+        padding-left: 5px;
+        padding-right: 10px;
+       
+    }
+    
+    #menu ul li a{
+         font-size: 15px;
+    }
 } 
     
