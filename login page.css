@@ -178,45 +178,26 @@
 }
 	
 
-	@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   
   //CSS
 .login {
-    position: absolute;
-    top: 60%;
+    position: relative;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 1.0);
     padding: 20px;
-    width: 30%;
-    box-shadow: 0 0 30% 20% #fff;
-} 
-.avatar {
-    font-size: 2em;
-    background: #bdc3c7;
-    width:50%;
-    height: 50%;
-    line-height: 80px;
-    text-align: center;
-    position: fixed;
-    left: 50%;
-    top: -5%;
-    transform: translate(-50%, -50%);
-    border-radius: 80%;
-    color: gray;
-}
-.avatar img{
-    height: 80px;
-    width: 90px;
-    border-radius: 50%;
+    width: 270px;
+    box-shadow: 0 0 10px 5px blue;
 }
 .login h2 {
     text-align: center;
+    font-size: 3.0em;
     color: white;
     padding-top: 10px;
     letter-spacing: 5px;
-    font-size: 3em;
-    margin-bottom: 1em;
+    line-height: 1.5em;
     
 }
 
@@ -241,7 +222,7 @@
     border: none;
     outline: none;
     color: white;
-    font-size: 18px;
+    font-size: 3em;
 }
 
 .box-login input:placeholder-shown {
@@ -253,8 +234,9 @@
     width: 100%;
     background: none;
     padding: 10px;
+    margin-bottom: 0.5em;
     border: 1px solid white;
-    font-size: 18px;
+    font-size: 3.0em;
     letter-spacing: 5px;
     color: bisque;
     cursor: pointer;
@@ -278,21 +260,21 @@
 .avatar { /* avatar is the frame or it can be like box or circle for profile pictures in the top of login page */
     font-size: 50px;
     background: #bdc3c7;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    width: 35%;
+    height: 30%;
+    line-height: 1%;
     text-align: center;
     position: fixed;
     left: 50%;
-    top: -5%;
+    top: -9%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     color: gray;
 }
 
 .avatar img{ /* this avatar image is the image that we put in box or circle which is  the frame of image */
-    height: 80px;
-    width: 80px;
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -337,13 +319,26 @@
     background: none;
     padding: 10px;
     border: 5px solid white;
-    font-size: 18px;
+    font-size: 2.0em;
     letter-spacing: 5px;
     color: bisque;
     cursor: pointer;
 }
+.bottom {
+    text-align: center;
+}
+
+.bottom a {
+    color: white;
+    font-size: 2.3em;
+   text-align: center;
+}
+.bottom a hover {
+    text-decoration: underline;
+}
 
 }
+
 @media screen and (max-width: 375px){/*FOR SCREEN IPHONE 6/7/8 */
     
 
