@@ -87,7 +87,7 @@ font-family:DFGothic-EB;/*This is an addition from the previous h2 */
 
 }
 
-@media only screen and (min-width:0px)  and (min-width:0px)
+@media only screen and (max-width:500px)  and (min-width:376px)
 {       
      #header h1{
         font-size: 80px;
