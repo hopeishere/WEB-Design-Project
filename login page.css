@@ -180,22 +180,21 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
-  //CSS
-.login {
-    position: relative;
-    top: 10%;
+  .login {
+    position: absolute;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 1.0);
     padding: 20px;
-    width: 270px;
-    box-shadow: 0 0 10px 5px blue;
+    width: 60%;
+    box-shadow: 0 0 10px 5px #fff;
 }
 .login h2 {
     text-align: center;
     font-size: 3.0em;
     color: white;
-    padding-top: 10px;
+    padding-top: 1.5em;
     letter-spacing: 5px;
     line-height: 1.5em;
     
@@ -260,8 +259,8 @@
 .avatar { /* avatar is the frame or it can be like box or circle for profile pictures in the top of login page */
     font-size: 50px;
     background: #bdc3c7;
-    width: 35%;
-    height: 30%;
+    width: 45%;
+    height: 45%;
     line-height: 1%;
     text-align: center;
     position: fixed;
