@@ -228,3 +228,29 @@
 	font-weight: 400;
 }
 }
+
+@media only screen and (max-width:500px) and (min-width:376px)
+{
+    .photo{
+        display:none;
+    }
+    .description {
+        width: 100%;
+        border-right:none;
+    }
+    .description p{
+        font-size: 15px;
+        line-height: 20px;
+        
+        border-right:none;
+        padding-left: 30px;
+    }
+    .description h2{
+        line-height: 50px;
+    }
+    .description h3{
+        line-height: 60px;
+    }
+   
+   
+}
