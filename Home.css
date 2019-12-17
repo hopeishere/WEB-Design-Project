@@ -34,8 +34,11 @@
   font-family: arial;
 }
 
+
 #content img { /* This styling is used for image in your content */
-  width: 600px;
+  	width: 100%;
+  	  margin: 0 0 10px 10px;
+
 }
 
 #list { /* This is styling for a list that you want to build and i suggest you that your list less than 10 list */
