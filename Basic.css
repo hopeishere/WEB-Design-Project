@@ -217,3 +217,36 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
     }
 } 
     
+
+
+@media only screen and (max-width:500px) and (min-width:0px)
+{   
+    #header{
+    width: 100%;
+    }
+     #header h1{
+        font-size: 80px;
+    }
+
+     #menu ul{
+        padding-left: 10px;
+        
+    }
+    
+    #menu ul li 
+    {       
+        padding-left: 5px;
+        padding-right: 10px;
+       
+    }
+    
+    #menu ul li a{
+         font-size: 15px;
+    }
+    #footer p a{
+        width:100%;
+        font-size: 15px;
+        padding-left: 10px;
+       
+    }
+    }
