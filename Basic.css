@@ -219,7 +219,7 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
     
 
 
-@media only screen and (max-width:500px) and (min-width:376px)
+@media only screen and (max-width:767px) and (min-width:376px)
 {   
     #header{
     width: 100%;
