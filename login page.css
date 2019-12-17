@@ -381,12 +381,13 @@
     .btn-login {/* SUBMIT */
         font-size: 20px;
         
+        
     }
     .login{/*BOX BLACK*/
  
         left: 50%;
-        padding-bottom: 80px;
-        padding-top: 80px;
+        padding-bottom: 70px;
+        padding-top: 70px;
       
         
     }
@@ -406,4 +407,5 @@
         font-size: 70px;
         float: right;
     }
+
 }
