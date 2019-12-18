@@ -160,7 +160,7 @@
     cursor: pointer;
 }
 
-.btn-signup: hover { /* style that we put to make effects for button or submit
+.btn-signup: hover { /* style that we put to make effects for button or submit*/
     background: rgba(0, 0, 0, 0.8);
 }
 .bottom {
@@ -179,8 +179,7 @@
 	
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-  .login {
+.login {
     position: absolute;
     top: 55%;
     left: 50%;
