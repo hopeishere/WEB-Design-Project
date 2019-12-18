@@ -105,7 +105,17 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
     { color: darkslategrey;
     text-decoration: none;}
 
-@media screen and (max-width: 1024px)and (min-width: 768px){
+@media screen and (max-width: 1024) and (min-width: 768){
+    #menu ul li a:hover { /* This styling is used for the list of your menu container that have a link and when you put your pointer to the hyperlink */
+    color: blue;
+    text-decoration: none;
+    padding-left: 0.1em;
+    padding-right: 1em;
+    background-color: black;
+}
+
+/*This is for Iphone*/
+ @media screen and (max-width: 375px) and (min-width: 0px){
     #header { /* This styling is used for the banner in the top of the page html */
     height: 200%;
     /*background:darkgreen url("../img/backheader.jpg)*/
@@ -115,11 +125,11 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
 
 }
 #header h1{ /* This styling is used for the Main Title of the page html , you can used it as your Company name or your Webpage Name */
-   font-size:500%;
+   font-size:3em;
     color: white;
-    padding-left: 2%;
-    padding-top: 5%;
-    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 20%;
     text-align : center;
     font-family:DFGothic-EB;/*This is an addition from the previous header */   
     -webkit-animation:glow 1s ease-in-out infinite alternate;
@@ -135,7 +145,7 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
 }
  }
  #menu { /* This styling is used for menu container of our page html , i suggest you to make the menu container less than 10 */
-    height:80px;
+    height:30px;
     line-height:190%;
     /*background: linear-gradient(to bottom, white,grey);*/
     background-color:black;/*the background color is changed*/
@@ -144,14 +154,13 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
 }
 #menu ul { /* This styling is used for your template of menu container */
     list-style-type: none;
-    padding-left: 0.5em;
+    padding-left: 10px;
 }
 
 #menu ul li { /* This styling is used for list of your menu container. This Styling make our list of menu container in one row to the right*/
     display: block;
     float: left;
-    padding-top: 1.2em;
-    padding-left:1.8em ;
+    padding-left:1vw ;
 
 }
 
@@ -159,26 +168,24 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
     text-decoration:none;
     /*color: black;*/
     color:white;/*the color of the font is changed to white */
-    font-size: 2.7em;
+    font-size: 1vw;
     font-family: arial black ;
 
 
 }
 
 #menu ul li a:hover { /* This styling is used for the list of your menu container that have a link and when you put your pointer to the hyperlink */
-    color: darkgreen;
+    color: blue;
     text-decoration: none;
-    padding-left: 1em;
-    padding-right: 1em;
     background-color: black;
 }
 #footer { /* This is styling for your footer of your page html */
    /*background-color:darkgreen;*/
     background-color: #03477A;/*the background-color is changed*/
     width: 100%;
-    height: 30px;
+    height: 1.5em;
     text-align: center;
-    font-size: 15px;
+    font-size: 1em;
     color: #aaa;
     font-family: arial;
     }
@@ -189,7 +196,7 @@ a:hover { /* This styling is used for the hyperlink element when you put your po
     { color: darkslategrey;
     text-decoration: none;}
 }
-}
+
 @media screen and (max-width: 375px){
     
     #header h1{
