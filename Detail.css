@@ -229,7 +229,7 @@
 }
 }
 
-@media only screen and (max-width:376px) and (min-width:100px)
+@media only screen and (max-width:376px) and (min-width:0px)
 {
     .photo{
         display:none;
